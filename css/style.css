@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+header {
+    background-color: #4650BD;
+    padding: 8px 70px;
+   
+}
+
+body{
+	overflow-x: hidden;
+	background-image: linear-gradient(10deg,#304968  0%,
+	#36C1A0  52.6%,
+	#4650BD 100%);
+}
+
+.banner{
+	width: 100%;
+	margin-top: -30px;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+
+
+nav {
+	display: flex;
+	align-items: center;	
+	justify-content: center ;
+	position: absolute;
+	width: 1460px;
+	height: 150px;
+	left: 350px;
+	top: -35px;
+
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 40px;
+	
+	
+
+}
+
+nav a {
+	font-size: 20px;
+	color: #ffff;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+nav a:hover {
+	color: blanchedalmond;
+	text-decoration: none;
+}
+
+
+
+.caixa__logo{
+
+	padding: 4px 2px;
+    width: 233.9px;
+    height: 64px;
+
+background: url(Logo1-branco.png);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.containner__datas {
+	margin: 7%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+	
+}
+
+.secaoDeDatas {
+	width: 480px;
+	
+	text-align: center;
+}
+
+.secaoDeDatas__titulo {
+	font-size: 38px;
+	text-align: center;
+	color: #ffff;
+	font-family: 'Raleway', sans-serif;
+}
+
+.secaoDeDatas__texto { 
+	font-size: 26px;
+	font-family: 'Raleway', sans-serif;
+	color: #ffff;
+	
+}
+
+.secaoDeDatas__texto, .secaoDeDatas__titulo  {
+	
+	vertical-align: center;
+}
+
+.secaoDeDatas__botao {
+	width: 240px;
+	
+	
+}
+
+.line-up {
+	text-align: center;
+}
+
+.line-up__titulo {
+	
+	text-align: center;
+	color: #ffff;
+	font-size: 64px;
+	font-family: 'Calistoga', cursive;
+	
+
+}
+
+.line-up__logo {
+	display: flex;
+	margin-left: 12%;
+	margin-top: 3%;
+	text-align: center;
+
+
+}
+
+.line-up__bandas {
+	font-family: 'Raleway', sans-serif;
+	color: #ffff;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.line-up__bandas__principal {
+	font-size: 48px;
+	margin-top: 3%;
+	font-weight: 800;
+	
+}
+
+.line-up__bandas__principal__2 {
+	font-size: 40px;
+	margin-top: 3%;
+	font-weight: bold;
+	
+	
+}
+
+.line-up__bandas__principal__3 {
+	font-size: 32px;
+	margin-top: 3%;
+	font-weight: bold;
+	
+}
+
+.line-up__bandas__principal__4 {
+	font-size: 32px;
+	margin-top: 3%;
+	font-weight: 500;
+	margin-bottom: 3%;
+
+}
+
+.imagem-guitar {
+	width: 100%;
+	
+}
+
+footer{
+	
+	background-color: #4650BD;
+	
+}
+
+.rodape {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	margin-right: 10%;
+}
+
+.rodape__logo {
+	margin-top: 2%;
+	margin-bottom: -2%;
+	margin-left: 8%;
+
+}
+
+.rodape__texto2 {
+	color: #ffff;
+	line-height: 1.5;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	margin-bottom: -4px;
+}
+
+.rodape2 {
+	display:flex ;
+	align-items: center;
+}
+
+
+.rodape2__texto {
+	
+	font-size: 20px;
+	color: #ffff;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 9%;
+	margin-bottom: 3%;
+	
+	
+}
+
+.rodape2__icones {
+	
+	margin-left: 1%;
+	width: 140px;
+	margin-bottom: 5%;
+}
+
+
+
+
+	
+	
+	
+
+
+
+
+
