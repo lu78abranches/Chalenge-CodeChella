@@ -141,6 +141,109 @@ flex-grow: 0;
 	color: #ffff;
 	font-size: 40px;
 	font-weight: 700;
+	margin: 5%;
 
 }
+
+
+.detalhes {
+	display: flex;
+	flex-direction: column;
+	margin-left: 6%;
+	text-align: center;
+	
+}
+
+.detalhes__pista__premium {
+	display: flex;
+	flex-direction: column;
+	margin-left: 6%;
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 5%;
+}
+
+.img__pista {
+	width: 382.4px;
+
+}
+
+.detalhes__titulo {
+	font-size: 32px;
+	font-family: 'Raleway', sans-serif;
+	color: #ffff;
+	margin-top: 2%;
+	width: 383px;
+
+
+}
+
+.detalhes__texto {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: #ffff;
+	margin-top: 1%;
+	font-weight: 500;
+	width: 383px;
+	
+}
+
+.containner__detalhes {
+	display: flex;
+}
+
+footer{
+	
+	background-color: #4650BD;
+	
+}
+
+.rodape {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	margin-right: 10%;
+}
+
+.rodape__logo {
+	margin-top: 2%;
+	margin-bottom: -2%;
+	margin-left: 8%;
+
+}
+
+.rodape__texto2 {
+	color: #ffff;
+	line-height: 1.5;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	margin-bottom: -4px;
+}
+
+.rodape2 {
+	display:flex ;
+	align-items: center;
+}
+
+
+.rodape2__texto {
+	
+	font-size: 20px;
+	color: #ffff;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 9%;
+	margin-bottom: 3%;
+	
+	
+}
+
+.rodape2__icones {
+	
+	margin-left: 1%;
+	width: 140px;
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
+
+
 
