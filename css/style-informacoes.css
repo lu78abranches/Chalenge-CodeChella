@@ -15,6 +15,7 @@ header {
 }
 
 body{
+	
 	overflow-x: hidden;
 	background-image: linear-gradient(10deg,#304968  0%,
 	#36C1A0  52.6%,
@@ -88,10 +89,142 @@ flex-grow: 0;
 .banner__titulo {
     position: absolute;
     top: 42%;
-    left: 30%;
+    left: 32%;
     text-align: center;
     font-family: 'Calistoga';
     color: #ffff;
     font-weight: 400;
     font-size: 64px;
 }
+
+.perguntas__titulo {
+	font-family: 'Calistoga';
+	color: #ffff;
+    font-weight: 400;
+    font-size: 48px;
+	text-align: center;
+	padding: 25px;
+}
+
+.containner__drop {
+	width: 100%;
+	
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 40px;
+
+}
+
+/*.sessao__perguntas {
+	width: 80%;
+	margin-left: 120px;
+	max-width: 1920px;
+}
+
+.sessao__perguntas, .pergunta-e-resposta, .perguntas {
+	background-color: #4650BD;
+	padding: 1%;
+	color: #C8DEEF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+
+}
+
+.sessao__perguntas, .pergunta-e-resposta, .resposta {
+	color: #304968;
+	background-color: #C8DEEF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 1%;
+	top: 70px;
+
+}*/
+
+section{
+    width: 70%;
+	margin-left: 250px;
+	max-width: 1920px;
+}
+
+section details summary{
+    background-color: #4650BD;
+	padding: 1%;
+	color: #C8DEEF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+section details p{
+    color: #304968;
+	background-color: #C8DEEF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 1%;
+	top: 70px;
+}
+
+footer{
+	
+	background-color: #4650BD;
+	margin: 0;
+	
+}
+
+.rodape {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	margin-right: 10%;
+}
+
+.rodape__logo {
+	margin-top: 5%;
+	margin-bottom: 1%;
+	margin-left: -10%;
+
+}
+
+.rodape__texto2 {
+	color: #ffff;
+	line-height: 1.5;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	margin-bottom: -4px;
+}
+
+.rodape2 {
+	display:flex ;
+	align-items: self-start;
+	margin-left: 160px;
+	
+	
+}
+
+
+.rodape2__texto {
+	
+	font-size: 20px;
+	color: #ffff;
+	font-family: 'Raleway', sans-serif;
+	margin-right: 0px;
+	margin-bottom: 3%;
+	
+	
+	
+	
+}
+
+.rodape2__icones {
+	
+	margin-left: 1%;
+	width: 140px;
+	margin-bottom: 5%;
+	margin-right: 20%;
+}
+
