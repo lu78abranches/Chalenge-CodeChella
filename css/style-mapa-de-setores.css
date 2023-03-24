@@ -61,6 +61,10 @@ nav a:hover {
 	color: blanchedalmond;
 	text-decoration: none;
 }
+nav #selecionado a {
+	text-decoration: underline;
+	color: aliceblue;
+}
 
 
 
