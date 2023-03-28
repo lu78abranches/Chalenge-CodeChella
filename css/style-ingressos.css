@@ -83,3 +83,66 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
+#titulo-form {
+	
+
+font-family: 'Calistoga';
+font-weight: 400;
+font-size: 48px;
+text-align: center;
+color: #ffff;
+padding: 3%;
+}
+
+fieldset {
+	border: 0;
+}
+
+.grupo  {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.grupo label {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 1em;
+	font-family: 'Raleway';
+	color: #ffff;
+	font-size: 32px;
+}
+
+.titulo-form-2 {
+	padding: 1em;
+}
+
+.grupo input,
+select {
+    box-sizing: border-box;
+    padding: 1em;
+    width: 100%;
+}
+
+
+
+button {
+    background: #4650BD;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 16px;
+    border: none;
+    width:164px;
+	height: 56px;
+    padding: 1em;
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: var(--fonte-principal);
+    margin: 1em auto;
+    cursor: pointer;
+	
+}
