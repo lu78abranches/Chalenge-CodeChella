@@ -84,52 +84,73 @@ order: 0;
 flex-grow: 0;
 }
 
+.container-eventos__botao {
+    background: #4650BD;
+    box-shadow: 4px 4px 0px #444444;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: .25em;
+	width: 220px;
+	color: #ffff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+
+    margin: 1em 7.5em;
+}
+
+
+
 
 .containner__datas {
-	margin: 7%;
-    display: flex;
-    align-items: center ;
-    justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
+	padding: 1.5em;
+	
+	
 	
 }
 
 .secaoDeDatas {
-	width: 480px;
 	
 	text-align: center;
+	
 }
 
+
+
 .secaoDeDatas__titulo {
-	font-size: 38px;
-	text-align: center;
-	color: #ffff;
+	font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    padding: 1em 0;
 	font-family: 'Raleway', sans-serif;
+	color: #ffff;
+	width: 392px;
+	margin-left: 65px;
+	
 }
 
 .secaoDeDatas__texto { 
-	font-size: 26px;
+	width: 540px;
+	font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
 	font-family: 'Raleway', sans-serif;
 	color: #ffff;
-	
-}
-
-.secaoDeDatas__texto, .secaoDeDatas__titulo  {
-	
-	vertical-align: center;
-}
-
-.secaoDeDatas__botao {
-	width: 240px;
-	
+	margin-right: 90px;
 	
 }
 
 .line-up {
+	
 	text-align: center;
 }
 
 .line-up__titulo {
-	
+	padding: 1em;
 	text-align: center;
 	color: #ffff;
 	font-size: 64px;
