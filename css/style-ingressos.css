@@ -95,13 +95,11 @@ color: #ffff;
 padding: 3%;
 }
 
-fieldset {
-	border: 0;
-}
 
 .grupo  {
     display: flex;
     flex-direction: column;
+	align-items: flex-end;
     width: 70vw;
     margin: 0 auto;
 }
@@ -118,6 +116,17 @@ fieldset {
 
 .titulo-form-2 {
 	padding: 1em;
+	width: 90%;
+}
+
+.tipo-data {
+	display: flex;
+	justify-content: space-around;
+	margin-right: 13px;
+}
+
+#tipo-ingresso {
+	margin-right: 39px;
 }
 
 .grupo input,
@@ -134,15 +143,34 @@ button {
     box-shadow: 4px 4px 0px #000000;
     border-radius: 16px;
     border: none;
-    width:164px;
-	height: 56px;
-    padding: 1em;
+    width:168px;
+	height: 38px;
+    padding: 0.1em;
+	padding-bottom: 25px;
     color: var(--branco);
     font-weight: 700;
     font-size: 20px;
     line-height: 40px;
-    font-family: var(--fonte-principal);
+    font-family: 'Raleway';
     margin: 1em auto;
     cursor: pointer;
+	color: #ffff;
+	
+	
+	
+	
+}
+
+.container-botao {
+	width: 100%;
+  max-width: 100px;
+  margin: 25px auto;
+  text-align: center;
+}
+
+
+
+button i {
+    margin-left: 1em;
 	
 }

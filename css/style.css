@@ -186,63 +186,11 @@ flex-grow: 0;
 
 .imagem-guitar {
 	width: 100%;
+	margin-bottom: -25px;
 	
 }
 
-footer{
-	
-	background-color: #4650BD;
-	
-}
 
-.rodape {
-	display: flex;
-	align-items: last baseline ;
-	justify-content: space-between;
-	margin-right: 10%;
-}
-
-.rodape__logo {
-	margin-top: 2%;
-	margin-bottom: -9%;
-	margin-left: 8%;
-	
-
-}
-
-.rodape__texto2 {
-	color: #ffff;
-	line-height: 2.5;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
-	
-}
-
-.rodape2 {
-	display:flex ;
-	align-items: center;
-	margin-top: -3%;
-}
-
-
-.rodape2__texto {
-	
-	font-size: 20px;
-	color: #ffff;
-	font-family: 'Raleway', sans-serif;
-	margin-left: 9%;
-	margin-bottom: 3%;
-	
-	
-}
-
-.rodape2__icones {
-	
-	margin-left: 1%;
-	width: 140px;
-	margin-bottom: 5%;
-	margin-top: 2%;
-}
 
 
 
