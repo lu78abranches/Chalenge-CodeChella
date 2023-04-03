@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
         integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="img/Símbolo ingresso.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/style-ingressos.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/rodape.css">
+
     <title>Ingressos</title>
 </head>
 <body>
@@ -35,7 +37,7 @@
 
     <img class="banner" src="img/5 - Banner - garanta seu ingresso.png" alt="plateia">
     
-    <main class="container">
+    <!--<main class="container">
         <h3 id="titulo-form">Preecha o formulário a seguir:</h3>
         <form class="grupo">
             
@@ -74,6 +76,52 @@
 
             </form>
 
+        </main>-->
+
+        <main class="container">
+            <h2 id="titulo-form">Preencha o formulário a seguir:</h2>
+    
+            <form class="grupo" data-formulario>
+                <fieldset class="titulo-form-2">
+                    <label for="nome" class="campo__etiqueta">Nome Completo:</label>
+                    <input type="text" minlength="6" required id="nome" name="nome" class="campo__escrita">
+                    <span class="campo__msg"></span>
+                </fieldset>
+    
+                <fieldset class="titulo-form-2">
+                    <label for="email" class="campo__etiqueta">E-mail:</label>
+                    <input type="email" class="campo__escrita" id="email" name="email" required
+                        placeholder="endereço@dominio.com" minlength="4">
+                    <span class="campo__msg"></span>
+                </fieldset>
+    
+                <fieldset class="titulo-form-2">
+                    
+                        <label for="ticket-type">Tipo de ingresso:</label>
+                        <select id="ticket-type" name="ticket-type" required>
+                            <option value="">Tipo de ingresso</option>
+                            <option value="Pista Premium">Pista Premium</option>
+                            <option value="Pista Comum">Pista Comum</option>
+                            <option value="Cadeiras Terreo">Cadeiras térreo</option>
+                            <option value="Cadeiras Superiores">Cadeiras superiores</option>
+                            <option value="Rampas">Rampas</option>
+                        </select>
+                </fieldset>
+    
+                <fieldset class="titulo-form-2">
+                    <label for="dataNascimento" class="campo__etiqueta">Data de nascimento:</label>
+                    <input type="date" class="campo__escrita" id="dataNascimento" required placeholder="dd/mm/aaaa"
+                        name="aniversario">
+                    <span class="campo__msg"></span>
+                </fieldset>
+    
+                <div class="container-botao">
+                    <button type="submit" class="botao__avancar" value="Avançar" data-avancar>
+                        Avançar!
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </form>
         </main>
 
     <footer class="rodape">
@@ -90,5 +138,8 @@
         </div>
         <p class="rodape-copyright">Desenvolvido por Luis Abranches.<br> Projeto fictício sem fins comerciais.</p>
     </footer>
+
+    <script src="js/main.js" type="module"></script>
+    <script src="js/ingresso.js"></script>
 </body>
 </html>

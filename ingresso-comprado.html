@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
         integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/Símbolo ingresso.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/style-mapa-de-setores.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/rodape.css">
@@ -24,10 +24,10 @@
             <a href="index.html"><img class="caixa__logo" src="img/Logo1 1.png" alt="Logo Cabecalho"></a>
             <nav>
                 <ul>
-                    <li id="selecionado"><a href="a-experiencia.html">A experiência</a></li>
+                    <li><a href="a-experiencia.html">A experiência</a></li>
                     <li><a href="mapa-de-setores.html">Mapa de Setores</a></li>
                     <li><a href="informacoes.html">Informações</a></li>
-                    <li><a href="ingressos.html">Ingresso</a></li>
+                    <li id="selecionado"><a href="ingressos.html">Ingresso</a></li>
                 </ul>
             </nav>
         </div>
@@ -46,18 +46,38 @@
                 <div class="ingresso__qrcode">
                     <img src="./img/6 - Qr code.svg" alt="qr code do ingresso">
                 </div>
-                <div class="ingresso__infos">
-                    <h3 class="ingresso__titulo">Luis Abranches</h3>
-                    <ul class="ingresso__lista">
-                        <li class="ingresso__lista-item">Ingresso Imprensa</li>
-                        <li class="ingresso__lista-item">Setor Pista</li>
-                        <li class="ingresso__lista-item">Data: 03/04</li>
-                        <li class="ingresso__lista-item">Local: São Paulo - SP</li>
-                    </ul>
+                <div class="ingresso__descricao" data-ingressoDescricao></div>
+                <div class="ingresso__informacoes">
+                    <h3>
+                        Luis Abranches
+                    </h3>
+                    <p>Ingresso cortesia</p>
+                    <p>Setor pista</p>
+                    <p>Data: 11/03</p>
+                    <p>Local: São Paulo-SP</p>
                 </div>
+                
             </div>
         </span>
     </main>
+
+    <footer class="rodape">
+        <img class="logo-rodape" src="img/Logo1 2.svg" alt="logo do CodeChella" />
+        <div>
+            
+            <div class="rodape-sociais">
+                <p>Acesse nossas redes:</p>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-twitch"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <p class="rodape-copyright">Desenvolvido por Luis Abranches.<br> Projeto fictício sem fins comerciais.</p>
+    </footer>
+    
+    <script src="js/ingresso-comprado.js"></script>
+
     
 </body>
 </html>
