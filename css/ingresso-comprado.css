@@ -56,3 +56,21 @@
     line-height: 40px;
     text-align: left;
 }
+
+.ingresso h3 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Raleway';
+    line-height: 38px;
+    color: #FFFF;
+
+}
+
+.ingresso p {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Raleway';
+    line-height: 40px;
+    text-align: left;
+    color: #FFFF;
+}

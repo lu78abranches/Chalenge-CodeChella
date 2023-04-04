@@ -6,7 +6,7 @@ formulario.addEventListener('submit', function (event) {
   // pega os valores dos campos
    const name = document.querySelector('#nome').value;
    const email = document.querySelector('#email').value;
-   const ticketType = document.querySelector('#ticketType').value;
+   const ticketType = document.querySelector('#ticket-type').value;
    const birthdate = document.querySelector('#dataNascimento').value;
 
    // armazena os valores no localStorage

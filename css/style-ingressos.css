@@ -82,6 +82,10 @@ button {
 	
 }
 
+.fa-arrow-right {
+    margin-left: 1rem;
+}
+
 .container-botao {
   width: 100%;
   max-width: 100px;
