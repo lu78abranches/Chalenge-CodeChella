@@ -1,4 +1,4 @@
-.cabecalho__banner{
+/*.cabecalho__banner{
     background-image: url(/img/verao_imagens/6\ -\ Banner\ -\ seu\ ingresso\ está\ aqui.png);
     mix-blend-mode: multiply;
     background-position: center;
@@ -35,10 +35,7 @@
     align-items: center;
 }
 
-.ingresso__logo-cinza{
-    width: 116.95px;
-    height: 32px;
-}
+
 
 .ingresso__dados{
     display: flex;
@@ -74,3 +71,73 @@
     text-align: left;
     color: #FFFF;
 }
+*/
+
+.ingresso__titulo {
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Raleway';
+    line-height: 42px;
+    text-align: center;
+    margin: 1em;
+    color: #FFFF;
+}
+
+
+
+.ingresso {
+    background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ingresso__logotipos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.ingresso__logo-cinza{
+    width: 116.95px;
+    height: 32px;
+}
+
+.ingresso__dados {
+    display: flex;
+    gap: 48px;
+}
+
+.ingresso h3 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Raleway';
+    line-height: 38px;
+    color: #FFFF;
+}
+
+.ingresso p {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Raleway';
+    line-height: 40px;
+    text-align: left;
+    color: #FFFF;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .ingresso {
+        width: 50%;
+        text-align: initial;
+        padding: 2em;
+    }
+
+    .ingresso__descricao {
+        display: flex;
+    }
+}
+
