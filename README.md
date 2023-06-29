@@ -7,7 +7,7 @@ O CodeChella é um festival de música alternativa que acontece anualmente, é c
 | :placard: CodeChella  |     |
 | -------------  | --- |
 | :sparkles: Nome        | **CodeChella**
-| :label: Tecnologias | HTML 5 - CSS 3 - Javascrip
+| :label: Tecnologias | HTML 5 - CSS 3 - JavaScript
 | :rocket: URL         | [https://url-deploy.com.br](https://chalenge-codechella.vercel.app/)
 | :fire: Desafio     | [https://url-do-desafio.com.br](https://www.alura.com.br/challenges/front-end-6/semana-01-conheca-codechella)
 
